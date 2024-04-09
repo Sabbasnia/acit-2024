@@ -48,6 +48,8 @@ first we need to ```cd /etc/systemd/system```
 then we should create a new file for our service for example hello_server.service.
 then we have the following 
 ExecStart should be path of the hello_server that we will run from the /local/usr/bin
+we are creating a service to manage our server and run it in the background, we can set our server to run after os was loaded automatically.
+
 ```
 [Unit]
 Description=Hello Server Service
@@ -66,7 +68,9 @@ then we should start our created service  with
 ``` bash
 sudo systemctl start hello_server.service
 ```
-
+```bash
+ sudo systemctl enable hello_server.service
+```
 then you should change your nginx config
 
 
