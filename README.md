@@ -94,7 +94,8 @@ sudo systemctl restart nginx
 ![Screenshot 2024-04-09 102513](https://github.com/Sabbasnia/acit-2024/assets/148383173/d420193d-d27f-47a5-b098-1382dafa8358)
 
 
-
+just echoing and returning everything passed to it
+![thrid](https://github.com/Sabbasnia/acit-2024/assets/148383173/a0fa735a-c85d-42e6-a1ea-fa205d10d560)
 
 
 
