@@ -48,7 +48,7 @@ first we need to ```cd /etc/systemd/system```
 then we should create a new file for our service for example hello_server.service.
 then we have the following 
 ExecStart should be path of the hello_server that we will run from the /local/usr/bin
-we are creating a service to manage our server and run it in the background, we can set our server to run after os was loaded automatically.
+we are creating a service to manage our server and run it in the background, we can set our server to run after network.target was loaded automaticall automatically.
 
 ```
 [Unit]
