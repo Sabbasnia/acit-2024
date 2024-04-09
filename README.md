@@ -95,8 +95,7 @@ sudo systemctl restart nginx
 
 
 
-![thrid](https://github.com/Sabbasnia/acit-2024/assets/148383173/3f48876e-e64f-4fec-a8a9-414cbc5bd11e)
-
+![thrid](https://github.com/Sabbasnia/acit-2024/assets/148383173/904e0807-d776-4a09-bcbc-9d7d695c13da)
 
 
 
