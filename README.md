@@ -67,6 +67,23 @@ then we should start our created service  with
 sudo systemctl start hello_server.service
 ```
 
+then you should change your nginx config
+
 
 
 ![Screenshot 2024-04-09 101435](https://github.com/Sabbasnia/acit-2024/assets/148383173/fa31bb51-e412-48a1-9474-a1f36db19d4c)
+
+
+in the nginx-2024, we should change the nginx config.
+
+cd to /etc/nignx/sites-availble and change your config file accordingly
+![firstone](https://github.com/Sabbasnia/acit-2024/assets/148383173/c7e572ac-250b-4782-81de-02b1df50fbb3)
+
+please restart or reload your nginx
+```bash
+sudo systemctl restart nginx
+```
+
+
+![Screenshot 2024-04-09 102513](https://github.com/Sabbasnia/acit-2024/assets/148383173/2560822e-c49c-4207-8661-88114279b188)
+
