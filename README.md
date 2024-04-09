@@ -29,7 +29,8 @@ once the system started it then you can activate the ufw firewall here
 sudo ufw enable
 ```
 
-then we are recieving the server file from the attachments and bringing to the server
+then we are recieving the server file from the attachments and bringing to the server to this via sftp connection
+
 
 
 
@@ -49,6 +50,7 @@ then we should create a new file for our service for example hello_server.servic
 then we have the following 
 ExecStart should be path of the hello_server that we will run from the /local/usr/bin
 we are creating a service to manage our server and run it in the background, we can set our server to run after network.target was loaded automaticall automatically.
+we can set Restart=always to restart our server incase it ran into a problem and stopped.
 
 ```
 [Unit]
