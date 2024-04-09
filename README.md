@@ -32,7 +32,6 @@ sudo ufw enable
 then we are recieving the server file from the attachments and bringing to the server
 
 
-this will get the server from the downloaded directory and passed to our server
 
 ```bash 
  put C:\Users\abbas\Downloads\hello-server
