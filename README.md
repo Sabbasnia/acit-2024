@@ -37,14 +37,14 @@ then we are recieving the server file from the attachments and bringing to the s
 ```bash 
  put C:\Users\abbas\Downloads\hello-server
 ```
-
-after the file of the hello-server passed from ![Screenshot 2024-04-09 100028](https://github.com/Sabbasnia/acit-2024/assets/148383173/899899cb-0ed8-4e22-8e37-a7f8a6cc35a0)
+after the file of the hello-server passed from 
 our server to the server we can change the permission for that file 
 
 
 ```bash
 sudo chmod +x hello-server
 ```
+![Screenshot 2024-04-09 100028](https://github.com/Sabbasnia/acit-2024/assets/148383173/899899cb-0ed8-4e22-8e37-a7f8a6cc35a0)
 first we need to ```cd /etc/systemd/system```
 then we should create a new file for our service for example hello_server.service.
 then we have the following 
