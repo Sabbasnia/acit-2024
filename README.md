@@ -29,8 +29,14 @@ once the system started it then you can activate the ufw firewall here
 sudo ufw enable
 ```
 
+then we are recieving the server file from the attachments and bringing to the server
 
 
+this will get the server from the downloaded directory and passed to our server
 
+```bash 
+ put C:\Users\abbas\Downloads\hello-server
+```
 
+after the file of the hello-server passed from our server to the server we can change the permission for that file 
 
