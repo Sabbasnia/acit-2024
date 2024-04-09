@@ -40,3 +40,33 @@ then we are recieving the server file from the attachments and bringing to the s
 after the file of the hello-server passed from ![Screenshot 2024-04-09 100028](https://github.com/Sabbasnia/acit-2024/assets/148383173/899899cb-0ed8-4e22-8e37-a7f8a6cc35a0)
 our server to the server we can change the permission for that file 
 
+
+```bash
+sudo chmod +x hello-server
+```
+first we need to ```cd /etc/systemd/system```
+then we should create a new file for our service for example hello_server.service.
+then we have the following 
+ExecStart should be path of the hello_server that we will run from the /local/usr/bin
+```
+[Unit]
+Description=Hello Server Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/hello-server
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+```
+then we should start our created service  with 
+``` bash
+sudo systemctl start hello_server.service
+```
+
+
+
+![Screenshot 2024-04-09 101435](https://github.com/Sabbasnia/acit-2024/assets/148383173/fa31bb51-e412-48a1-9474-a1f36db19d4c)
