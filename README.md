@@ -78,6 +78,7 @@ in the nginx-2024, we should change the nginx config.
 
 cd to /etc/nignx/sites-availble and change your config file accordingly
 ![firstone](https://github.com/Sabbasnia/acit-2024/assets/148383173/c7e572ac-250b-4782-81de-02b1df50fbb3)
+![thrid](https://github.com/Sabbasnia/acit-2024/assets/148383173/32507c52-607d-4f2c-a93c-e0685f80bf69)
 
 please restart or reload your nginx
 ```bash
@@ -85,5 +86,11 @@ sudo systemctl restart nginx
 ```
 
 
-![Screenshot 2024-04-09 102513](https://github.com/Sabbasnia/acit-2024/assets/148383173/2560822e-c49c-4207-8661-88114279b188)
+
+
+![thrid](https://github.com/Sabbasnia/acit-2024/assets/148383173/3f48876e-e64f-4fec-a8a9-414cbc5bd11e)
+
+
+
+
 
